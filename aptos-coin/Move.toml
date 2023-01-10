@@ -1,0 +1,10 @@
+[package]
+name = 'justa_coin'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+justa = "0x194b4bde5ee83ac69dc0da7922e4bbc6592a921e059721e77d09621d2904fcf8"
